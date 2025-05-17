@@ -47,8 +47,24 @@ Yes, reading time can be shown for any `is_singular()` post type.
 
 == Screenshots ==
 
-1. Settings page to toggle word count and title/content display
-2. Example output above a blog post
+1. Upload or download the plugin first
+screenshot-1.png
+2. Active the plugin
+screenshot-2.png
+3. Admin Settings page and Output
+screenshot-3.png
+screenshot-4.png
+4. Change Settings and Output
+screenshot-5.png
+screenshot-6.png
+
+Shortcode usage
+screenshot-7.png
+screenshot-8.png
+
+Example output above a blog post
+screenshot-4.png
+screenshot-6.png
 
 == Changelog ==
 
