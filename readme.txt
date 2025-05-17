@@ -9,7 +9,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Display reading time and word count for posts or pages. Automatically or via shortcode. Simple and SEO-friendly.
+Display reading time and word count for posts and also simple use shortcode ['reading-time']. Automatically or via shortcode. Simple and SEO-friendly.
 
 == Description ==
 
