@@ -23,7 +23,7 @@ Great for improving SEO, content engagement, and readability.
  * Author URI:        https://devsopu.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       reading-time-word-count-block-post
+ * Text Domain:       reading-time-word-count-block-for-post
  * Domain Path:       /languages
  */
 

@@ -186,5 +186,11 @@ wp-config.php
 # uncomment the next line
 #/wp-content/themes
 
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
 
 # End of https://www.toptal.com/developers/gitignore/api/phpstorm,wordpress,cakephp

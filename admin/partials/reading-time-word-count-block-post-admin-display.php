@@ -34,52 +34,52 @@ $show_with_content = get_option('rtwc_show_with_content', 'yes');
                <tr>
                   <th scope="row">
                      <label
-                        for="rtwc_show_word_count"><?php esc_html_e( 'Show Word Count', 'reading-time-word-count-block-post' ); ?></label>
+                        for="rtwc_show_word_count"><?php esc_html_e( 'Show Word Count', 'reading-time-word-count-block-for-post' ); ?></label>
                   </th>
                   <td>
                      <input type="checkbox" name="rtwc_show_word_count" id="rtwc_show_word_count" value="yes"
                         <?php checked( $show_word_count, 'yes' ); ?> />
                      <label
-                        for="rtwc_show_word_count"><?php esc_html_e( 'Yes', 'reading-time-word-count-block-post' ); ?></label>
+                        for="rtwc_show_word_count"><?php esc_html_e( 'Yes', 'reading-time-word-count-block-for-post' ); ?></label>
                   </td>
                </tr>
 
                <tr>
                   <th scope="row">
                      <label
-                        for="rtwc_show_with_title"><?php esc_html_e( 'Show with Title', 'reading-time-word-count-block-post' ); ?></label>
+                        for="rtwc_show_with_title"><?php esc_html_e( 'Show with Title', 'reading-time-word-count-block-for-post' ); ?></label>
                   </th>
                   <td>
                      <input type="checkbox" name="rtwc_show_with_title" id="rtwc_show_with_title" value="yes"
                         <?php checked( $show_with_title, 'yes' ); ?> />
                      <label
-                        for="rtwc_show_with_title"><?php esc_html_e( 'Yes', 'reading-time-word-count-block-post' ); ?></label>
+                        for="rtwc_show_with_title"><?php esc_html_e( 'Yes', 'reading-time-word-count-block-for-post' ); ?></label>
                   </td>
                </tr>
 
                <tr>
                   <th scope="row">
                      <label
-                        for="rtwc_show_with_content"><?php esc_html_e( 'Show with Content', 'reading-time-word-count-block-post' ); ?></label>
+                        for="rtwc_show_with_content"><?php esc_html_e( 'Show with Content', 'reading-time-word-count-block-for-post' ); ?></label>
                   </th>
                   <td>
                      <input type="checkbox" name="rtwc_show_with_content" id="rtwc_show_with_content" value="yes"
                         <?php checked( $show_with_content, 'yes' ); ?> />
                      <label
-                        for="rtwc_show_with_content"><?php esc_html_e( 'Yes', 'reading-time-word-count-block-post' ); ?></label>
+                        for="rtwc_show_with_content"><?php esc_html_e( 'Yes', 'reading-time-word-count-block-for-post' ); ?></label>
                   </td>
                </tr>
             </tbody>
          </table>
 
-         <?php submit_button( __( 'Save Changes', 'reading-time-word-count-block-post' ), 'primary', 'submit', true, array( 'id' => 'rtwc-settings-submit' ) ); ?>
+         <?php submit_button( __( 'Save Changes', 'reading-time-word-count-block-for-post' ), 'primary', 'submit', true, array( 'id' => 'rtwc-settings-submit' ) ); ?>
 
 
       </form>
 
       <p>
-         <strong><?php esc_html_e( 'Note:', 'reading-time-word-count-block-post' ); ?></strong>
-         <?php esc_html_e( 'You can also use the shortcode', 'reading-time-word-count-block-post' ); ?>
+         <strong><?php esc_html_e( 'Note:', 'reading-time-word-count-block-for-post' ); ?></strong>
+         <?php esc_html_e( 'You can also use the shortcode', 'reading-time-word-count-block-for-post' ); ?>
          <code>[reading_time]</code>
       </p>
       <div id="rtwc-settings-message"></div>
